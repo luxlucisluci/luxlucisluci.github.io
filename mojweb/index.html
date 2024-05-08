@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Markdown - LoremIpsumTest</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">LoremIpsumTest</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href=".." class="nav-link">Welcome to MkDocs</a>
+                            </li>
+                            <li class="navitem active">
+                                <a href="./" class="nav-link">Markdown</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../radionica/" class="nav-link">Radionica Penkala</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href=".." class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../radionica/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#markdown" class="nav-link">Markdown</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#ureivanje-teksta" class="nav-link">Uređivanje teksta</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#neko-novo-poglavlje" class="nav-link">Neko novo poglavlje</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="markdown">Markdown</h1>
+<p>Ovdje vježbamo pisanje teksta u jeziku Markdown</p>
+<h2 id="ureivanje-teksta">Uređivanje teksta</h2>
+<h3 id="podebljano-kurziv-i-precrtano">Podebljano, kurziv i precrtano</h3>
+<p>Ovo je riječ koja je <em>ukošena</em></p>
+<p>Ovo je riječ koja je <strong>podebljana</strong></p>
+<p>Kombinacija <strong><em>ukošena i podebljana</em></strong></p>
+<h3 id="komentari">Komentari</h3>
+<p>Ode se neće vidit dalje nakon ovog <!-- komentar --></p>
+<!-- ovo je komentar kroz nekoliko linija -->
+
+<h3 id="citiranje">Citiranje</h3>
+<blockquote>
+<p>Ja ne mogu nikoga natjerati da nešto misli</p>
+</blockquote>
+<h3 id="numerirane-i-nenumerirane-liste">Numerirane i nenumerirane liste</h3>
+<p>Za napraviti: </p>
+<ol>
+<li>zaliti cvijeće,</li>
+<li>nešto drugo napraviti</li>
+<li>nahraniti psa</li>
+</ol>
+<p>Moram kupiti: </p>
+<ul>
+<li>kruh,<ul>
+<li>mlijeko,</li>
+<li>jogurt</li>
+<li>sir</li>
+<li>ivetlalova</li>
+</ul>
+</li>
+<li>novine</li>
+</ul>
+<p><a href="https://group.miletic.net/hr/prezentacije/2024-04-24-radionica-izradite-svoj-web-u-4-sata/#priprema-za-radionicu">Link za radionicu</a></p>
+<p><a href="http://gaseri.org">http://gaseri.org</a></p>
+<h3 id="slike">Slike</h3>
+<p><img alt="Pas" src="img/RADOVANI_Mutimir2021_UdrugaPenkala@StubičkeToplice_28.12.2021-204.JPG" /></p>
+<h3 id="escape-znak">Escape znak</h3>
+<p>1.7.2017 Diplomirao</p>
+<h3 id="navoenje-dijelova-koda">Navođenje dijelova koda</h3>
+<p>Naredba unutar teksta <code>print()</code></p>
+<pre><code class="language-python">for i in [1, 2, 3,]
+    do x = y
+</code></pre>
+<h3 id="tablice">Tablice</h3>
+<table>
+<thead>
+<tr>
+<th>broj</th>
+<th>ime</th>
+<th style="text-align: right;">oznaka</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Luka</td>
+<td style="text-align: right;">$4A</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Ivan</td>
+<td style="text-align: right;">$2b</td>
+</tr>
+</tbody>
+</table>
+<h3 id="formule">Formule</h3>
+<p>Markdown koristi LaTex sintaksu za pisanje formula</p>
+<p>Pitagorin poučak glasi \begin{equation}c^2=x^2+b^2\end{equation}</p>
+<p>Ako želimo unutar teksta pisat ćemo na ovaj način $c^2=x^2+b^2$</p>
+<h1 id="neko-novo-poglavlje">Neko novo poglavlje</h1></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../js/jquery-3.6.0.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js"></script>
+        <script src="../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
