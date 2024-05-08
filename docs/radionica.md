@@ -52,6 +52,7 @@ Moram kupiti:
 ### Escape znak
 
 1\.7\.2017 Diplomirao
+3\.7\.2019 prijavio posao
 
 ### Navođenje dijelova koda
 
