@@ -1,0 +1,19 @@
+dobro je sve na jednom pageu radi scrollanja
+
+github je isto domena, samo besplatna, nećemo se bavit zakupom domena trenutno
+
+dva glavna načina izrade web sjedišta. Prvo nešto tipa WordPress ili neki sličan alat trebaju ti mjesta na webu koja plaćaš, neko treba brinit da se ti sustavi nadograđuju, proširenja da se nadograđuju i s godinama ako ti se to web sjedište ne nadograđuje sigurno će ga neko hakirat i to se ne može koristit. Dakle ili ljudi zaborave to nadograđivat ili zaborave platit onima koji te softvere nadograđuju. Dakle nešto tipa Wordpress, Joomla, Dupal, Shopify, Wix itd. Stoga je puno jednostavnije upotreba generatora statičkog web sjedišta, alati temeljeni na Jamstack arhitekturi. S njima nema rizika nikakvog, jedino može propast kompanija koja nudi hosting i onda se prebaciš na drugi generator web sjedišta.
+
+MkDox je jedan od generatora statičkog web sjedišta.
+
+RustDesk open source alternative to TeamViewer
+
+
+Sve se pokreće s:
+
+mkdocs serve
+
+
+Za izraditi website, direktorij /site, koji za kojeg onda tražiš hosting, na primjer GitHub Pages, se koristi naredba:
+
+mkdocs build
